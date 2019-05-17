@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0BCF0BD9-7AD4-419F-853F-A425A50E2649}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Agno_StudStaff_Mng_Demo.My.MyApplication</StartupObject>
+    <RootNamespace>Agno_StudStaff_Mng_Demo</RootNamespace>
+    <AssemblyName>Agno StudStaff Mng Demo</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Agno StudStaff Mng Demo.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Agno StudStaff Mng Demo.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admission.Designer.vb">
+      <DependentUpon>Admission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admission.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admission_Regisrty.Designer.vb">
+      <DependentUpon>Admission_Regisrty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admission_Regisrty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agno Student And Staff Management System.Designer.vb">
+      <DependentUpon>Agno Student And Staff Management System.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agno Student And Staff Management System.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classreport.Designer.vb">
+      <DependentUpon>Classreport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Classreport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrysTC.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrysTC.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Department.Designer.vb">
+      <DependentUpon>Department.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Department.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Designation.Designer.vb">
+      <DependentUpon>Designation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Designation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpAttendance.Designer.vb">
+      <DependentUpon>EmpAttendance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmpAttendance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee list.Designer.vb">
+      <DependentUpon>Employee list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee Profile.Designer.vb">
+      <DependentUpon>Employee Profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee Profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exam.Designer.vb">
+      <DependentUpon>Exam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="examples.Designer.vb">
+      <DependentUpon>examples.vb</DependentUpon>
+    </Compile>
+    <Compile Include="examples.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fee Plan.Designer.vb">
+      <DependentUpon>Fee Plan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fee Plan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fee.Designer.vb">
+      <DependentUpon>fee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feereceiptprint.Designer.vb">
+      <DependentUpon>feereceiptprint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="feereceiptprint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feereciprcrys.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Feereciprcrys.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="feestructure.Designer.vb">
+      <DependentUpon>feestructure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="feestructure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintTC.Designer.vb">
+      <DependentUpon>frmPrintTC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintTC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log_In.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log_In.Designer.vb">
+      <DependentUpon>Log_In.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage Session.Designer.vb">
+      <DependentUpon>Manage Session.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manage Session.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marks.Designer.vb">
+      <DependentUpon>marks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="marks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="New Class.Designer.vb">
+      <DependentUpon>New Class.vb</DependentUpon>
+    </Compile>
+    <Compile Include="New Class.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Section.Designer.vb">
+      <DependentUpon>New Section.vb</DependentUpon>
+    </Compile>
+    <Compile Include="New Section.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewUser.Designer.vb">
+      <DependentUpon>NewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.vb">
+      <DependentUpon>Profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reciept.Designer.vb">
+      <DependentUpon>reciept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reciept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.vb">
+      <DependentUpon>Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="School Information.Designer.vb">
+      <DependentUpon>School Information.vb</DependentUpon>
+    </Compile>
+    <Compile Include="School Information.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="School report.Designer.vb">
+      <DependentUpon>School report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="School report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Detail.Designer.vb">
+      <DependentUpon>Staff Detail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Detail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student list.Designer.vb">
+      <DependentUpon>Student list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student registeration.Designer.vb">
+      <DependentUpon>Student registeration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student registeration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student report card.Designer.vb">
+      <DependentUpon>Student report card.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student report card.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_AttendanceFrm.Designer.vb">
+      <DependentUpon>Student_AttendanceFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student_AttendanceFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subject.Designer.vb">
+      <DependentUpon>Subject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Subject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUBJECTSCLASS.Designer.vb">
+      <DependentUpon>SUBJECTSCLASS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SUBJECTSCLASS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer certificate.Designer.vb">
+      <DependentUpon>Transfer certificate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer certificate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferStudent.Designer.vb">
+      <DependentUpon>TransferStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TransferStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WELCOME.Designer.vb">
+      <DependentUpon>WELCOME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WELCOME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workingdays.Designer.vb">
+      <DependentUpon>workingdays.vb</DependentUpon>
+    </Compile>
+    <Compile Include="workingdays.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admission.resx">
+      <DependentUpon>Admission.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admission_Regisrty.resx">
+      <DependentUpon>Admission_Regisrty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agno Student And Staff Management System.resx">
+      <DependentUpon>Agno Student And Staff Management System.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classreport.resx">
+      <DependentUpon>Classreport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrysTC.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrysTC.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Department.resx">
+      <DependentUpon>Department.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designation.resx">
+      <DependentUpon>Designation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpAttendance.resx">
+      <DependentUpon>EmpAttendance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee list.resx">
+      <DependentUpon>Employee list.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee Profile.resx">
+      <DependentUpon>Employee Profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam.resx">
+      <DependentUpon>Exam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="examples.resx">
+      <DependentUpon>examples.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fee Plan.resx">
+      <DependentUpon>Fee Plan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fee.resx">
+      <DependentUpon>fee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feereceiptprint.resx">
+      <DependentUpon>feereceiptprint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feereciprcrys.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Feereciprcrys.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feestructure.resx">
+      <DependentUpon>feestructure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintTC.resx">
+      <DependentUpon>frmPrintTC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log_In.resx">
+      <DependentUpon>Log_In.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage Session.resx">
+      <DependentUpon>Manage Session.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marks.resx">
+      <DependentUpon>marks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Class.resx">
+      <DependentUpon>New Class.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Section.resx">
+      <DependentUpon>New Section.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUser.resx">
+      <DependentUpon>NewUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reciept.resx">
+      <DependentUpon>reciept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="School Information.resx">
+      <DependentUpon>School Information.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="School report.resx">
+      <DependentUpon>School report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Detail.resx">
+      <DependentUpon>Staff Detail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student list.resx">
+      <DependentUpon>Student list.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student registeration.resx">
+      <DependentUpon>Student registeration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student report card.resx">
+      <DependentUpon>Student report card.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_AttendanceFrm.resx">
+      <DependentUpon>Student_AttendanceFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subject.resx">
+      <DependentUpon>Subject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUBJECTSCLASS.resx">
+      <DependentUpon>SUBJECTSCLASS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer certificate.resx">
+      <DependentUpon>Transfer certificate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferStudent.resx">
+      <DependentUpon>TransferStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WELCOME.resx">
+      <DependentUpon>WELCOME.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workingdays.resx">
+      <DependentUpon>workingdays.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

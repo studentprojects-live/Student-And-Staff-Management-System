@@ -1,0 +1,47 @@
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\bin\Debug\Agno StudStaff Mng Demo.exe
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\bin\Debug\Agno StudStaff Mng Demo.pdb
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\bin\Debug\Agno StudStaff Mng Demo.xml
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Resources.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno StudStaff Mng Demo.vbproj.GenerateResource.Cache
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno StudStaff Mng Demo.exe
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno StudStaff Mng Demo.xml
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno StudStaff Mng Demo.pdb
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Log_In.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Agno_Student_And_Staff_Management_System.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Registration.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Admission.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Fee_Plan.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.New_Standard.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.New_Section.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Staff_Detail.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Manage_Session.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.School_Information.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.EmpAttendance.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.workingdays.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Transfer_certificate.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Department.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Student_AttendanceFrm.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.frmPrintTC.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Designation.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Exam.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Subject.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.marks.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Student_list.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Student_registeration.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Profile.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.fee.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.feereceiptprint.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Employee_list.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.TransferStudent.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Classreport.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Employee_Profile.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.examples.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.feestructure.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.reciept.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.SUBJECTSCLASS.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Student_report_card.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.WELCOME.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.Admission_Regisrty.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.School_report.resources
+E:\project\Agno StudStaff Mng Demo\Agno StudStaff Mng Demo\obj\Debug\Agno_StudStaff_Mng_Demo.NewUser.resources
