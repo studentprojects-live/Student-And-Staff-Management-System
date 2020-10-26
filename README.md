@@ -6,4 +6,4 @@ Front End : VISUAL BASIC.NET
 Back End : Microsoft SQL Server
 
 For more information about this project visit:
-https://www.studentprojectguide.com/vb-net/student-and-staff-management-system/
+https://www.studentprojects.live/studentprojectreport/projectreport/student-and-staff-management-system/
